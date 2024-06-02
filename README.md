@@ -3,16 +3,12 @@
 The protocol allows users to deposit native assets on any supported chain and borrow native assets
 on any other chain, while being backed by their entire multi-chain portfolio.
 
-### Scope
+# Security
 
-Full repository except for the following paths:
+> ⚠️ Warning! ⚠️
+> This project is in its early and experimental stages. It is undergoing an audit and has not yet been thoroughly reviewed for security vulnerabilities. Do not use in production.
 
-- `src/contracts/gateway/routing/`
-- `src/contracts/gateway/interfaces/IWormhole.sol`
-- `src/contracts/gateway/interfaces/IWormholeRelayer.sol`
-- `src/contracts/gateway/interfaces/IWormholeReceiver.sol`
-- `src/contracts/hub/oracles/`
-- `src/contracts/util/ABDKMathQuad.sol`
+Please report any security issues you find to security@pike.finance
 
 ## System overview
 
